@@ -669,3 +669,379 @@ Ex:
 </body>
 </html>
 
+Forms
+.form-label                <Label>
+.form-control            textbox, password, number, date, email, url etc..
+.form-select                <select>
+.form-range                <input type="range">
+.form-check-input        radio and checkbox
+.form-switch                radio and checkbox as switch
+
+Ex:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap-Workshop</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"&gt;
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css&quot; rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body class="container-fluid">
+    <main class="d-flex justify-content-center align-items-center" style="height:500px" >
+        <form class="border border-primary border-1 p-2 rounded rounded-2" style="width:300px">
+            <h3>Register User</h3>
+            <div class="mb-3">
+                <label class="form-label">User Name</label>
+                <div>
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Password</label>
+                <div>
+                    <input type="password" class="form-control">
+                </div>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">City</label>
+                <div>
+                    <select class="form-select">
+                        <option>Your City</option>
+                        <option>Delhi</option>
+                        <option>Hyd</option>
+                    </select>
+                </div>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Age</label>
+                <div>
+                    <input type="range" class="form-range">
+                </div>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Subscribe</label>
+                <div class="form-switch">
+                    <input type="checkbox" class="form-check-input"> <label>Yes</label>
+                </div>
+            </div>
+            <div>
+                <button class="btn btn-primary w-100">Register</button>
+            </div>
+        </form>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js&quot; integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
+
+                                       Input Group
+.input-group
+.input-group-text
+.input-group-lg
+
+Ex:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap-Workshop</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"&gt;
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css&quot; rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body class="container-fluid">
+    <h2>Amazon Search</h2>
+    <div class="input-group">
+        <select class="input-group-text">
+            <option>All</option>
+            <option>Mobiles</option>
+            <option>Fashion</option>
+        </select>
+        <input type="text" class="form-control" placeholder="Search in Amazon">
+        <button class="btn btn-warning">
+            <span class="bi bi-search"></span>
+        </button>
+    </div>
+    <h2>Neflix</h2>
+    <div class="input-group input-group-lg">
+        <input class="form-control" type="email" placeholder="Your email address">
+        <button class="btn btn-danger">
+            Get Started <span class="bi bi-chevron-right"></span>
+        </button>
+    </div>
+    <h3>Verify Account</h3>
+    <div class="input-group">
+        <span class="bi bi-key-fill input-group-text"></span>
+        <input type="password" class="form-control" placeholder="Your password">
+        <button class="btn btn-success">Verify</button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js&quot; integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
+
+                                          Modals
+.modal
+.modal-dialog
+.modal-content
+.modal-header
+.modal-body
+.modal-footer
+.fade
+
+data-bs-toggle                : click
+data-bs-target                : It refers to ID
+data-bs-dismiss
+
+Ex:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap-Workshop</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"&gt;
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css&quot; rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body class="container-fluid">
+     <h2>Dialog - Modal</h2>
+     <button class="btn btn-primary" data-bs-target="#login" data-bs-toggle="modal">Login</button>
+     <button class="btn btn-success" data-bs-target="#course" data-bs-toggle="modal" >View Course</button>
+     <div class="modal fade" id="login">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>User Login</h2>
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <dl>
+                        <dt>User Name</dt>
+                        <dd><input type="text" class="form-control"></dd>
+                        <dt>Password</dt>
+                        <dd><input type="password" class="form-control"></dd>
+                    </dl>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary">Login</button>
+                    <button data-bs-dismiss="modal" class="btn btn-danger">Cancel</button>
+                </div>
+            </div>
+        </div>
+     </div>
+
+     <div class="modal fade" id="course">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>UI Technologies</h2>
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-4">
+                            <img src="ui.jpg" width="100" height="100">
+                        </div>
+                        <div class="col-8">
+                            <ol>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Bootstrap</li>
+                                <li>JavaScript</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js&quot; integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
+
+                                         Carousel
+Basic Classes
+.carousel
+.carousel-inner
+.carousel-item
+.active                    : One Item must be active
+.slide                        : It defines sliding animation
+
+Attribute
+data-bs-ride            : to start animation
+
+Control Classes
+.carousel-control-prev
+.carousel-control-prev-icon
+.carousel-control-next
+.carousel-control-next-icon
+.carousel-dark
+
+Attribute
+data-bs-slide="prev"
+data-bs-slide="next"
+data-bs-target="#bannerId"
+
+Indicator Classes
+.carousel-indicators
+.active
+
+Attribute
+data-bs-slide-to="0"
+
+Timings
+data-bs-interval="1000"        // 1 sec
+
+Ex:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap-Workshop</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"&gt;
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css&quot; rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body class="container-fluid">
+    <div class="carousel slide carousel-dark" id="topBanner" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+                <img src="slide1.jpg" class="w-100 d-block">
+            </div>
+            <div class="carousel-item" data-bs-interval="1000">
+                <img src="slide2.jpg" class="w-100 d-block">
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+                <img src="slide3.jpg" class="w-100 d-block">
+            </div>
+        </div>
+        <button class="carousel-control-prev" data-bs-target="#topBanner" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" data-bs-target="#topBanner" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+        <div class="carousel-indicators">
+            <button class="active" data-bs-slide-to="0" data-bs-target="#topBanner"></button>
+            <button data-bs-slide-to="1" data-bs-target="#topBanner"></button>
+            <button data-bs-slide-to="2" data-bs-target="#topBanner"></button>
+        </div>
+    </div>  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js&quot; integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+Ex:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap-Workshop</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"&gt;
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css&quot; rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body class="container-fluid">
+    <div class="carousel slide carousel-dark" id="topBanner" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+                <img src="slide1.jpg" class="w-100 d-block">
+            </div>
+            <div class="carousel-item" data-bs-interval="1000">
+                <img src="slide2.jpg" class="w-100 d-block">
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+                <div class="d-flex justify-content-center align-items-center" style="height:250px">
+                    <div>
+                        <h1>Register with us for more offers</h1>
+                        <button class="btn btn-primary btn-lg">Register</button>    
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+                <img src="slide3.jpg" class="w-100 d-block">
+            </div>
+        </div>
+        <button class="carousel-control-prev" data-bs-target="#topBanner" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" data-bs-target="#topBanner" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+        <div class="carousel-indicators">
+            <button class="active" data-bs-slide-to="0" data-bs-target="#topBanner"></button>
+            <button data-bs-slide-to="1" data-bs-target="#topBanner"></button>
+            <button data-bs-slide-to="2" data-bs-target="#topBanner"></button>
+            <button data-bs-slide-to="3" data-bs-target="#topBanner"></button>
+        </div>
+    </div>  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js&quot; integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
+
+                                        Dropdowns
+.dropdown
+.dropup
+.dropend
+.dropstart
+.dropdown-menu
+.dropdown-item
+.dropdown-toggle
+
+Ex:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap-Workshop</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"&gt;
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css&quot; rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body class="container-fluid">
+    <h2>Dropdown</h2>
+    <div class="dropdown" id="menu">
+        <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown">
+            <span class="bi bi-globe"></span> Language
+        </button>
+        <ul class="dropdown-menu dropdown-menu-dark">
+            <li class="dropdown-item">English</li>
+            <li class="dropdown-item">हिंदी</li>
+        </ul>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js&quot; integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
+                                            Spinners
+.spinner-grow
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap-Workshop</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"&gt;
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css&quot; rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body class="container-fluid">
+    <h2>Dropdown</h2>
+    <div class="dropdown" id="menu">
+        <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown">
+            <span class="spinner-border spinner-border-sm text-warning"></span> Language
+        </button>
+        <ul class="dropdown-menu dropdown-menu-dark">
+            <li class="dropdown-item">English</li>
+            <li class="dropdown-item">हिंदी</li>
+        </ul>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js&quot; integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
